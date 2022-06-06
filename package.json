@@ -1,0 +1,24 @@
+{
+  "name": "vue3-point",
+  "version": "1.0.0",
+  "description": "拆解分析`vue3`核心知识点`happy path`<br >\r   - effect\r   - diff",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/You-5C24/vue3-point.git"
+  },
+  "author": "5c24",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/You-5C24/vue3-point/issues"
+  },
+  "homepage": "https://github.com/You-5C24/vue3-point#readme",
+  "devDependencies": {
+    "@babel/core": "7.18.2",
+    "babel-jest": "^28.1.0",
+    "jest": "^28.1.0"
+  }
+}

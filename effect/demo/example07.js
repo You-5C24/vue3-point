@@ -1,5 +1,5 @@
 /**
- * 利用全局变量 activeEffect 解决 trriger track 写死的问题
+ * 利用全局变量 activeEffect 动态收集副作用函数
  *
  */
 

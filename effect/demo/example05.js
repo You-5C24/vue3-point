@@ -42,11 +42,11 @@ function track(target, key) {
 function trigger(target, key) {
   const depsMap = targetMap.get(target);
 
-  if (depsMap) {
-    const dep = depsMap.get(key);
-    if (dep) {
-      dep.forEach((effect) => effect());
-    }
+  if (!depsMap) return;
+
+  const dep = depsMap.get(key);
+  if (dep) {
+    dep.forEach((effect) => effect());
   }
 }
 
